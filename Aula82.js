@@ -10,4 +10,4 @@ const RESULTADO = [];
     SENGUNDOS = SENGUNDOS % VAL;
     }
 
-console.log(RESULTADO);
+console.log(RESULTADO.join(" : "));
