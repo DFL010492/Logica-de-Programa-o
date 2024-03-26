@@ -1,28 +1,31 @@
 const input = require("fs").readFileSync("stdin122","utf8");
 
-PALAVRA = input.split(" ");
+const input = require("fs").readFileSync("STANDART52","utf8");
+
+PALAVRA = input.split('');
+
 
 if (PALAVRA === 'vertebrado') {
     PALAVRA = input.split();
 
     if (PALAVRA === 'ave') {
         PALAVRA = input.split();
-    }
-
+    
         if (PALAVRA === 'carnivoro') {
             PALAVRA = input.split();
             animal = PALAVRA === 'carnivoro' ? 'aguia' : 'aguia';
-        }
         
-        else {
+        if ( PALAVRA === 'onivoro') {
             PALAVRA = input.split();
             animal = PALAVRA === 'onivoro' ? 'pomba' : 'pomba';
-        }     
-
+        }
+        }
+    }
+}
     if (PALAVRA === 'mamifero') {
         PALAVRA = input.split();
         animal = PALAVRA === 'mamifero';
-    }
+
 
         if (PALAVRA === 'onivoro') {
             PALAVRA = input.split();
@@ -54,11 +57,13 @@ else {
             PALAVRA = input.split();
             animal = PALAVRA === 'herbivoro' ? 'lagarta' : 'lagarta';
         }
+    
 
     if (PALAVRA === 'anelideo') {
         PALAVRA = input.split();
         animal = PALAVRA === 'anelideo';
     }
+
         if (PALAVRA === 'hematofago') {
             PALAVRA = input.split();
             animal = PALAVRA === 'hematofago' ? 'sanguessuga' : 'sanguessuga'
@@ -68,5 +73,6 @@ else {
             PALAVRA = input.split();
             animal = PALAVRA === 'onivoro' ? 'minhoca' : 'minhoca'
         }
+    
 
-console.log(animal)
+console.log(animal);
