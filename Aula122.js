@@ -1,6 +1,6 @@
 const input = require("fs").readFileSync("stdin122","utf8");
 
-PALAVRA = input.split();
+PALAVRA = input.split(" ");
 
 if (PALAVRA === 'vertebrado') {
     PALAVRA = input.split();
@@ -11,7 +11,7 @@ if (PALAVRA === 'vertebrado') {
 
         if (PALAVRA === 'carnivoro') {
             PALAVRA = input.split();
-            animal = PALAVRA === ' carnivoro' ? 'aguia' : 'aguia';
+            animal = PALAVRA === 'carnivoro' ? 'aguia' : 'aguia';
         }
         
         else {
@@ -19,7 +19,7 @@ if (PALAVRA === 'vertebrado') {
             animal = PALAVRA === 'onivoro' ? 'pomba' : 'pomba';
         }     
 
-    else {
+    if (PALAVRA === 'mamifero') {
         PALAVRA = input.split();
         animal = PALAVRA === 'mamifero';
     }
@@ -55,7 +55,7 @@ else {
             animal = PALAVRA === 'herbivoro' ? 'lagarta' : 'lagarta';
         }
 
-    else {
+    if (PALAVRA === 'anelideo') {
         PALAVRA = input.split();
         animal = PALAVRA === 'anelideo';
     }
@@ -68,4 +68,5 @@ else {
             PALAVRA = input.split();
             animal = PALAVRA === 'onivoro' ? 'minhoca' : 'minhoca'
         }
+
 console.log(animal)
