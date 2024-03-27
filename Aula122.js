@@ -1,5 +1,3 @@
-const input = require("fs").readFileSync("stdin122","utf8");
-
 const input = require("fs").readFileSync("STANDART52","utf8");
 
 PALAVRA = input.split('');
