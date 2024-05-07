@@ -29,7 +29,7 @@ if (impares.length > 0) {
     imprimeNumeros(impares, false);
 }
 if (pares.length > 0) {
-    imprimeNumeros(impares, true);
+    imprimeNumeros(pares, true);
 }
 
 function imprimeNumeros (numeros, saoPAres) {
